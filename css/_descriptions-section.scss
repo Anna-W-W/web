@@ -1,0 +1,10 @@
+.descriptions-section {
+position: relative;
+
+  &:before {
+content: url(../img/rred.svg);
+position: absolute;
+bottom: -80px;
+left: 4%;
+  }
+}
