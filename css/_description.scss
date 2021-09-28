@@ -5,17 +5,17 @@
 .description__image-wrapper{
   position: relative;
   display: inline-block;
-  width: 128px;
-  height: 128px;
+  width: rem(128px);
+  height: rem(128px);
   background: #F2F5F4;
   border-radius: 50%;
   overflow: hidden;
-  margin-bottom: 22px;
+  margin-bottom: rem(22px);
 }
 
 .description__icon{
-width: 58px;
-height: 60px;
+width: rem(58px);
+height: rem(60px);
 position: absolute;
 top: 26%;
 left:28%;
@@ -23,13 +23,13 @@ left:28%;
 }
 
 .description__title {
-  font-size: 24px;
+  font-size: rem(24px);
   font-weight: bold;
-  margin-bottom: 12px;
+  margin-bottom: rem(12px);
 }
 
 .description__cont {
-  font-size: 16px;
+  font-size: rem(16px);
   padding: 0 26%;
   color: #666666;
 }
