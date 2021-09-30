@@ -5,17 +5,17 @@
 .description__image-wrapper{
   position: relative;
   display: inline-block;
-  width: rem(128px);
-  height: rem(128px);
+  width: 8rem;
+  height: 8rem;
   background: #F2F5F4;
   border-radius: 50%;
   overflow: hidden;
-  margin-bottom: rem(22px);
+  margin-bottom: 1.375rem;
 }
 
 .description__icon{
-width: rem(58px);
-height: rem(60px);
+width: 3.625rem;
+height: 3.75rem;
 position: absolute;
 top: 26%;
 left:28%;
@@ -23,13 +23,13 @@ left:28%;
 }
 
 .description__title {
-  font-size: rem(24px);
+  font-size: 24px;
   font-weight: bold;
-  margin-bottom: rem(12px);
+  margin-bottom: 0.75rem;
 }
 
 .description__cont {
-  font-size: rem(16px);
+  font-size: 16px;
   padding: 0 26%;
   color: #666666;
 }

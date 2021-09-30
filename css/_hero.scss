@@ -2,14 +2,14 @@
   background: url(../img/beats.png) right 10% center no-repeat;
   background-color: #F5F5F5;
   height: 100vh;
-  min-height: rem(650px);
+  min-height: 40.625rem; //650px
   color: black;
   position: relative;
 
   &:before {
     content: url(../img/decHero.svg);
     position: absolute;
-    bottom: rem(-25px);
+    bottom: -1.5625rem;
     right: 12%;
   }
 }
@@ -19,22 +19,22 @@
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
-  padding-bottom: rem(66px);
+  padding-bottom: 4.125rem;
 }
 .hero__title-section{
 width: 40%;
 }
 
 .hero__main-title{
-  font-size: rem(48px);
+  font-size: 48px;
   font-weight: bold;
   text-transform: uppercase;
   line-height: 1.1;
-  margin-bottom: rem(22px);
+  margin-bottom: 1.375rem;
 }
 
 .hero__title-desc{
-  font-size: rem(21px);
-  margin-bottom: rem(36px);
+  font-size: 21px;
+  margin-bottom: 2.25rem;
   padding-right: 14%;
 }
